@@ -1,0 +1,13 @@
+
+
+ POST Response at 2018-02-21 03:33:42 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ GET Response at 2018-02-21 03:33:42 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2018-02-21 03:34:10 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ GET Response at 2018-02-21 03:34:10 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2018-02-21 03:34:23 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ GET Response at 2018-02-21 03:34:23 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}

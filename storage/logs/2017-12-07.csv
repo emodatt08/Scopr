@@ -1,0 +1,155 @@
+
+
+ POST Response at 2017-12-07 10:58:49 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 11:04:16 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 11:04:16 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:36:43 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:36:43 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:39:11 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:39:11 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:45:06 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:45:06 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:45:08 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:45:08 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:45:33 on store with request params as: :{"caption":"Longer","image":"1512657920461.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:45:33 on store with request params as: :{"caption":"Longer","image":"5a29540d52fb5.1432746252.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:47:28 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:47:28 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:47:29 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:47:29 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:49:27 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:49:27 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:50:01 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:50:01 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:50:13 on store with request params as: :{"caption":"1","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_352.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:50:13 on store with request params as: :{"caption":"1","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_353.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:50:14 on store with request params as: :{"caption":"1","image":"5a295525d7edb.1729958157.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:50:14 on store with request params as: :{"caption":"1","image":"5a295525ad41b.2033420958.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:51:06 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:51:06 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:51:26 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:51:26 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:51:44 on store with request params as: :{"caption":"1","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_357.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:51:44 on store with request params as: :{"caption":"1","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_354.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:51:44 on store with request params as: :{"caption":"1","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_356.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:51:44 on store with request params as: :{"caption":"1","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_355.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:51:45 on store with request params as: :{"caption":"1","image":"5a29558088ec4.822868365.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:51:45 on store with request params as: :{"caption":"1","image":"5a295580bfc18.1602908768.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:51:45 on store with request params as: :{"caption":"1","image":"5a29558088ed5.715083199.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:51:45 on store with request params as: :{"caption":"1","image":"5a295580f03c8.1667543975.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:55:51 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:55:51 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:55:55 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:55:55 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:56:55 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:56:55 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:58:40 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:58:40 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 14:58:54 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_359.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:58:54 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_358.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:58:54 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_360.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:58:54 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_361.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:58:55 on store with request params as: :{"caption":"multi","image":"5a29572f00922.284949790.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:58:55 on store with request params as: :{"caption":"multi","image":"5a29572f00936.885716435.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:58:55 on store with request params as: :{"caption":"multi","image":"5a29572f062fa.361191933.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:58:55 on store with request params as: :{"caption":"multi","image":"5a29572f008e7.1153059295.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 14:59:51 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 14:59:51 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 15:00:03 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_362.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:00:03 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_363.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:00:03 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_364.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:00:03 on store with request params as: :{"caption":"multi","image":"5a2957737a4c7.1816206951.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 15:00:03 on store with request params as: :{"caption":"multi","image":"5a295773a6a96.157586139.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 15:00:03 on store with request params as: :{"caption":"multi","image":"5a295773b2689.650978006.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 15:00:49 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:00:49 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 15:01:01 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:01:01 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 15:02:52 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_366.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:02:52 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_367.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:02:52 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_368.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:02:52 on store with request params as: :{"caption":"multi","image":"file:\/\/\/Users\/emodatt08\/Library\/Developer\/CoreSimulator\/Devices\/0CA8D93C-2056-4472-BC96-C423C72F797A\/data\/Containers\/Data\/Application\/D78294EA-54EB-46AD-9EAE-9E2EC90906B1\/tmp\/cdv_photo_365.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:02:52 on store with request params as: :{"caption":"multi","image":"5a29581c3d42e.1587119884.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 15:02:52 on store with request params as: :{"caption":"multi","image":"5a29581c46f2c.1195039672.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 15:02:52 on store with request params as: :{"caption":"multi","image":"5a29581c3d3dd.1866151518.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 15:02:52 on store with request params as: :{"caption":"multi","image":"5a29581c3d378.1917647074.jpg","album_id":"1","user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully stored photo or photos","data":{"photos":true}}
+
+ POST Response at 2017-12-07 15:03:11 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:03:11 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
+
+ POST Response at 2017-12-07 15:03:13 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :""
+
+ POST Response at 2017-12-07 15:03:13 on albums_all with request params as: :{"user_id":"5a1d37572a5ec9.80111262"} and response as :{"responseCode":"200","responseMessage":"Successfully retrieved all albums","data":{"albums":[{"album_name":"Nature","id":1}]}}
