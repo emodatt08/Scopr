@@ -10,6 +10,8 @@ RewriteRule ^search/?$ views/search.php
 #RewriteRule ^login/(\w+)/(\w+)/?$ login.php?id=$1&code=$2
 RewriteRule ^crawl/?$ views/crawl.php
 RewriteRule ^clicks/?$ views/api/updateLink.php
+RewriteRule ^image/clicks/?$ views/api/updateImageLinks.php
+RewriteRule ^broken/?$ views/api/brokenLinks.php
 RewriteRule ^crawlDesc/?$ views/crawlDesc.php
 RewriteRule ^crawlTitle/?$ views/crawlTitle.php
 RewriteRule ^crawlImages/?$ views/crawlImage.php

@@ -178,17 +178,17 @@ a .pageNumber{
     margin:20px;
 }
 
-.gridItem {
-    position:relative;
-}
+
 
 .gridItem img{
     max-width: 200px;
     min-width: 50px;
+    visibility: hidden;
 }
 
 
 .gridItem .details{
+   visibility: hidden;
    position:absolute;
    bottom:0px;
    left:0px;
@@ -199,5 +199,10 @@ a .pageNumber{
    font-size: 11px;
    padding: 3px;
    box-sizing: border-box;
+   white-space: nowrap;
 } 
+
+.gridItem:hover .details{
+    visibility: visible;
+}
 /* Image Results End */

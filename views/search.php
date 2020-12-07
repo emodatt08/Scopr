@@ -79,6 +79,12 @@ $search = new SearchController();
 
      
         <?php 
+        if($_GET['type'] != "web"){
+            $count = 0;
+            echo "
+            <div class='imageResults'>";  
+            
+        }
                 foreach($data as $row){
                     if($_GET['type'] == "web"){
                         $id =  $row['id']; 
@@ -102,19 +108,30 @@ $search = new SearchController();
 
                         $id =  $row['id']; 
                         $imageUrl =  $row['raw_image_link'];
-                        $siteUrl =   $row['website_url'];
-                        
+                        $description =   (isset($row['image_alt']) && $row['image_alt'] !="") ? $row['image_alt'] : $row['website_url'];
+                        $siteUrl = $row['website_url'];
+                        $count++;
                         $term = "";
+                        $imageClass = "image".$count;
                         echo "
-                        <div class='imageResults'>
-                            <div class='gridItem '>
-                                <a href='$imageUrl'><img src='$imageUrl'> </a>
-                                    <span class='details'>$siteUrl</span><br/>
-                            </div>
-                        </div>";
+                            <div class='gridItem $imageClass'>
+                                <a href='$imageUrl' data-fancybox data-caption='$description' data-siteurl='$siteUrl'>
+                                    <script>
+                                        $(document).ready(function(){
+                                            loadImage(\"$imageUrl\",\"$imageClass\");
+                                        });
+                                    </script> 
+                                 <span class='details'>$description</span>
+                                </a>
+                                    
+                            </div>";
                        
                     }
-                }   
+                } 
+                if($_GET['type'] != "web"){
+                    echo "</div>";  
+                }
+                
         ?> 
      
     </div>
@@ -164,6 +181,8 @@ $search = new SearchController();
         
     </div>
     </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script type="text/javascript" src="./public/scripts/script.js" > </script>
 </body>
 
 <?php include('footer.php') ?>

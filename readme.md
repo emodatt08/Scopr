@@ -1,4 +1,4 @@
-# Flex Box and PHP based Google Clone
+# Flex Box and PHP based Search Engine
 
 Description
 ```
@@ -8,9 +8,9 @@ $ Custom crawler using file_get_contents for links(href), titles, images(img ele
 ```
 <h2 id="screenshots">Screenshots</h2>
 
-<!-- ![](screenshots/1.png)
+![](screenshots/1.png)
 ![](screenshots/2.png)
-![](screenshots/3.png) -->
+![](screenshots/3.png)
 
 
 

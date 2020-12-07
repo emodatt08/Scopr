@@ -85,6 +85,23 @@ public function __construct()
                
             }
 
+            public function setBrokenLinks($url){
+                
+                $data = ['url'=>$url];
+                $updateBrokenLink = $this->search->updateBrokenLinks($data);
+                if($updateBrokenLink){
+                    $this->response["responseCode"] = "200";
+                    $this->response["responseMessage"] = "Url Broken Link Updated";
+                    $this->response['data'] = $updateBrokenLink;
+                    return $this->returnResp(); 
+                }else{
+                    $this->response["responseCode"] = "404";
+                    $this->response["responseMessage"] = "An error ocurred";
+                    $this->response['data'] = false;
+                    return $this->returnResp(); 
+               }
+            }
+
             public function clean($actualString) {
             $string = $actualString;
              $cleanText = preg_replace('/[^A-Za-z0-9\-]/', '', $string);
@@ -102,15 +119,33 @@ public function __construct()
                 // $setFirstLoginStatus = $this->db->setFirstTimeStatus($id);
                 $this->response["responseCode"] = "200";
                 $this->response["responseMessage"] = "Url Click Count Updated";
-                $this->response['secret_code'] = $update;
+                $this->response['data'] = $update;
                 return $this->returnResp(); 
             }else{
                 $this->response["responseCode"] = "404";
                 $this->response["responseMessage"] = "An error ocurred";
-                $this->response['secret_code'] = false;
+                $this->response['data'] = false;
                 return $this->returnResp(); 
             }
     }
+
+    public function sendImageClick($request){
+        //var_dump($request); die;
+        $update = $this->search->updateImageUrlClicks($request);
+            if($update){
+                // $setFirstLoginStatus = $this->db->setFirstTimeStatus($id);
+                $this->response["responseCode"] = "200";
+                $this->response["responseMessage"] = "Image Url Click Count Updated";
+                $this->response['data'] = $update;
+                return $this->returnResp(); 
+            }else{
+                $this->response["responseCode"] = "404";
+                $this->response["responseMessage"] = "An error ocurred";
+                $this->response['data'] = false;
+                return $this->returnResp(); 
+            }
+    }
+
 
 
     public function returnResp(){

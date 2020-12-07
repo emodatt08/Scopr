@@ -260,6 +260,23 @@ class Search extends Connection
         }
     }
 
+
+
+    public function updateBrokenLinks($data){
+        $broken = "1";
+        $stmt = $this->conn->prepare("
+        UPDATE images SET broken = :broken where url= :url");
+        $stmt->bindParam(":broken", $broken);
+        $stmt->bindParam(":url", $data['url']); 
+        $result = $stmt->execute();
+        // check for successful update
+        if ($result) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public function updateSitesDescriptionOrKeywords($data){
         //var_dump($data['description']); die();
         $no_description = (isset($data['description']) && $data['description'] != " ") ? "1": "0";
@@ -282,6 +299,21 @@ class Search extends Connection
         $stmt = $this->conn->prepare("
         UPDATE sites SET clicks = clicks + 1 where id = :id");
         $stmt->bindParam(":id", $data['id']); 
+        
+        $result = $stmt->execute();
+        // check for successful update
+        if ($result) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
+    public function updateImageUrlClicks($data){
+        $stmt = $this->conn->prepare("
+        UPDATE images SET clicks = clicks + 1 where raw_image_link = :url ");
+        $stmt->bindParam(":url", $data['url']); 
         
         $result = $stmt->execute();
         // check for successful update
